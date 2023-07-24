@@ -72,7 +72,7 @@ body {
 }
 
 .delete-action_btn {
-    @apply p-3 text-gray-100 hover: bg-red-600 rounded-lg text-sm font-medium;
+    @apply p-3 text-gray-100 hover:bg-red-600 rounded-lg text-sm font-medium;
 }
 
 /* Related Project Card */
@@ -94,11 +94,11 @@ body {
 }
 
 .custom_menu-items {
-    @apply flex-col absolute left-0 mt-2 xs: min-w-[300px] w-fit max-h-64 origin-top-right rounded-xl bg-white border border-nav-border shadow-menu overflow-y-auto;
+    @apply flex-col absolute left-0 mt-2 xs:min-w-[300px] w-fit max-h-64 origin-top-right rounded-xl bg-white border border-nav-border shadow-menu overflow-y-auto;
 }
 
 .custom_menu-item {
-    @apply text-left w-full px-5 py-2 text-sm hover: bg-light-white-100 self-start whitespace-nowrap capitalize;
+    @apply text-left w-full px-5 py-2 text-sm hover:bg-light-white-100 self-start whitespace-nowrap capitalize;
 }
 
 /* Footer */
@@ -125,7 +125,7 @@ body {
 }
 
 .modal_wrapper {
-    @apply flex justify-start items-center flex-col absolute h-[95%] w-full bottom-0 bg-white rounded-t-3xl lg: px-40 px-8 pt-14 pb-72 overflow-auto;
+    @apply flex justify-start items-center flex-col absolute h-[95%] w-full bottom-0 bg-white rounded-t-3xl lg:px-40 px-8 pt-14 pb-72 overflow-auto;
 }
 
 /* Navbar */
